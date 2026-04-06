@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Styles — Graphic Designer</title>
+    <meta
+      name="description"
+      content="Alex Styles is a graphic designer crafting bold visual identities, editorial layouts, and brand experiences."
+    />
+
+    <!-- Google Fonts: Cormorant Garamond (display) + Jost (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ====================================================================
+       NAVIGATION
+       ==================================================================== -->
+    <nav class="nav">
+      <a href="#home" class="nav-logo">Alex<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" data-tooltip="Who I am">About</a></li>
+        <li><a href="#portfolio" data-tooltip="Selected projects">Work</a></li>
+        <li><a href="#contact" data-tooltip="Start a project">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+    </nav>
+
+    <!-- ====================================================================
+       HERO SECTION
+       ==================================================================== -->
+    <section class="hero container" id="home">
+      <!-- Left: Text content -->
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          Available for freelance
+        </div>
+
+        <h1 class="hero-name">
+          Alex
+          <span class="name-highlight">Styles</span>
+        </h1>
+
+        <p class="hero-tagline">
+          Graphic designer turning <strong>ideas into visual stories</strong> —
+          from brand identities to editorial layouts that actually make people
+          stop and look.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">
+            View My Work
+            <span>&#8594;</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <!-- Right: Photo with floating badge -->
+      <div class="hero-visual">
+        <div class="hero-image-frame">
+          <img
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700&auto=format&fit=crop&q=80"
+            alt="Alex Styles — Graphic Designer"
+          />
+        </div>
+
+        <div class="hero-badge">
+          <div class="hero-badge-number">8+</div>
+          <div class="hero-badge-label">Years of Design</div>
+        </div>
+
+        <div class="hero-tag">&#9733; Top-rated Designer</div>
+      </div>
+
+      <!-- Scroll hint -->
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+       ABOUT SECTION
+       ==================================================================== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Photo -->
+          <div class="about-image-wrap reveal">
+            <div class="about-photo">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=700&auto=format&fit=crop&q=80"
+                alt="Alex Styles at work"
+              />
+            </div>
+          </div>
+
+          <!-- Bio & skills -->
+          <div class="about-content reveal">
+            <p class="section-label">About Me</p>
+            <h2 class="section-title">
+              Design is my way of<br />
+              making sense of things
+            </h2>
+
+            <div class="about-bio" style="margin-top: 1.5rem">
+              <p>
+                Hi, I'm Alex — a graphic designer based in New York with a
+                background in fine arts and visual communication. For the past 8
+                years I've been helping brands find their visual voice, from
+                scrappy startups to established names across publishing, tech,
+                and fashion.
+              </p>
+              <p>
+                I care deeply about the relationship between form and meaning.
+                Every font choice, every margin, every color has a job to do —
+                and I love figuring out exactly what that job is.
+              </p>
+            </div>
+
+            <div class="about-skills">
+              <p class="skills-title">Areas of Expertise</p>
+              <ul class="skills-list">
+                <li><span class="skill-tag">Brand Identity</span></li>
+                <li><span class="skill-tag">Editorial Design</span></li>
+                <li><span class="skill-tag">Typography</span></li>
+                <li><span class="skill-tag">Packaging</span></li>
+                <li><span class="skill-tag">UI / Visual Design</span></li>
+                <li><span class="skill-tag">Motion Graphics</span></li>
+                <li><span class="skill-tag">Art Direction</span></li>
+                <li><span class="skill-tag">Print Production</span></li>
+              </ul>
+            </div>
+
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number">120+</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">48</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Awards Won</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+       PORTFOLIO SECTION
+       ==================================================================== -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="portfolio-header">
+          <div>
+            <p class="section-label">Selected Work</p>
+            <h2 class="section-title">Projects I'm proud of</h2>
+          </div>
+          <p class="portfolio-intro">
+            A curated mix of brand, editorial, and digital work — each project
+            started with a real problem and ended with something worth looking
+            at.
+          </p>
+        </div>
+
+        <!-- Filter buttons -->
+        <div class="portfolio-filters">
+          <button class="filter-btn active">All</button>
+          <button class="filter-btn">Branding</button>
+          <button class="filter-btn">Editorial</button>
+          <button class="filter-btn">Packaging</button>
+          <button class="filter-btn">Digital</button>
+        </div>
+
+        <!-- Grid -->
+        <div class="portfolio-grid">
+          <!-- Card 1 — Featured / wide -->
+          <article class="portfolio-card" data-project="0">
+            <div class="card-meta">
+              <span class="card-category">Branding</span>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1000&auto=format&fit=crop&q=80"
+                alt="Luminary Brand Identity project"
+              />
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Luminary Brand Identity</h3>
+              <p class="card-desc">
+                Full visual identity system for a sustainable luxury candle
+                brand.
+              </p>
+              <span class="card-arrow">View Case Study &#8594;</span>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="portfolio-card" data-project="1">
+            <div class="card-meta">
+              <span class="card-category">Editorial</span>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800&auto=format&fit=crop&q=80"
+                alt="Meridian Magazine editorial layout"
+              />
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Meridian Magazine</h3>
+              <p class="card-desc">
+                Complete redesign of a quarterly architecture &amp; culture
+                print magazine.
+              </p>
+              <span class="card-arrow">View Case Study &#8594;</span>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="portfolio-card" data-project="2">
+            <div class="card-meta">
+              <span class="card-category">Packaging</span>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1612538498456-e861df91d4d0?w=800&auto=format&fit=crop&q=80"
+                alt="Foliage skincare packaging"
+              />
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Foliage Skincare</h3>
+              <p class="card-desc">
+                Packaging suite and brand language for a botanical skincare
+                line.
+              </p>
+              <span class="card-arrow">View Case Study &#8594;</span>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="portfolio-card" data-project="3">
+            <div class="card-meta">
+              <span class="card-category">Digital</span>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80"
+                alt="Volta web design project"
+              />
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Volta — Web Design</h3>
+              <p class="card-desc">
+                Visual design and design system for a fintech startup's public
+                site.
+              </p>
+              <span class="card-arrow">View Case Study &#8594;</span>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="portfolio-card" data-project="4">
+            <div class="card-meta">
+              <span class="card-category">Typography</span>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop&q=80"
+                alt="Type specimen poster"
+              />
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Typeface Specimen Posters</h3>
+              <p class="card-desc">
+                A personal series exploring expressive lettering and type
+                systems.
+              </p>
+              <span class="card-arrow">View Case Study &#8594;</span>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="portfolio-card" data-project="5">
+            <div class="card-meta">
+              <span class="card-category">Motion</span>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800&auto=format&fit=crop&q=80"
+                alt="Abstract motion design work"
+              />
+            </div>
+            <div class="card-info">
+              <h3 class="card-title">Kinetic Branding — Orb</h3>
+              <p class="card-desc">
+                Animated logo and motion identity for a digital product studio.
+              </p>
+              <span class="card-arrow">View Case Study &#8594;</span>
+            </div>
+          </article>
+        </div>
+        <!-- /.portfolio-grid -->
+      </div>
+    </section>
+
+    <!-- ====================================================================
+       CONTACT SECTION
+       ==================================================================== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Left: Info -->
+          <div class="contact-info reveal">
+            <p class="section-label">Get in Touch</p>
+            <h2 class="section-title">
+              Let's make<br />
+              something great
+            </h2>
+
+            <p class="contact-description" style="margin-top: 1.5rem">
+              Whether you have a project in mind or just want to explore ideas,
+              I'd love to hear from you. Drop me a message and I'll usually get
+              back within 24 hours.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">&#9993;</div>
+                <div>
+                  <div class="contact-item-label">Email</div>
+                  <div class="contact-item-value">
+                    <a
+                      href="/cdn-cgi/l/email-protection"
+                      class="__cf_email__"
+                      data-cfemail="6f070a0303002f0e030a171c1b16030a1c410c00"
+                      >[email&#160;protected]</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">&#128205;</div>
+                <div>
+                  <div class="contact-item-label">Location</div>
+                  <div class="contact-item-value">
+                    New York, NY — Remote Friendly
+                  </div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">&#128337;</div>
+                <div>
+                  <div class="contact-item-label">Response Time</div>
+                  <div class="contact-item-value">Usually within 24 hours</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links" style="margin-top: 2rem">
+              <a href="#" class="social-link" aria-label="Dribbble">Dr</a>
+              <a href="#" class="social-link" aria-label="Behance">Be</a>
+              <a href="#" class="social-link" aria-label="Instagram">Ig</a>
+              <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            </div>
+          </div>
+
+          <!-- Right: Form -->
+          <div class="contact-form reveal">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="Jordan"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Rivera"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="jordan@company.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="projectType">Project Type</label>
+                <select id="projectType" name="projectType">
+                  <option value="" disabled selected>
+                    Select a project type…
+                  </option>
+                  <option value="brand">Brand Identity</option>
+                  <option value="editorial">Editorial / Publication</option>
+                  <option value="packaging">Packaging Design</option>
+                  <option value="digital">Digital / UI Design</option>
+                  <option value="motion">Motion Graphics</option>
+                  <option value="other">Other / Not Sure Yet</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Tell Me About Your Project</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="What are you working on? What problem are you trying to solve? The more detail you share, the better I can help."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit">
+                Send Message &#8594;
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+       PORTFOLIO MODAL
+       ==================================================================== -->
+    <div
+      class="modal-backdrop"
+      id="projectModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+      <div class="modal">
+        <button class="modal-close" id="modalClose" aria-label="Close modal">
+          &#10005;
+        </button>
+        <div class="modal-image">
+          <img id="modalImage" src="" alt="" />
+        </div>
+        <div class="modal-body">
+          <span class="modal-category" id="modalCategory"></span>
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <div class="modal-meta">
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Client</span>
+              <span class="modal-meta-value" id="modalClient"></span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Year</span>
+              <span class="modal-meta-value" id="modalYear"></span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Role</span>
+              <span class="modal-meta-value" id="modalRole"></span>
+            </div>
+          </div>
+          <p class="modal-desc" id="modalDesc"></p>
+          <div class="modal-tags" id="modalTags"></div>
+          <a
+            href="#contact"
+            class="btn btn-primary"
+            id="modalCta"
+            onclick="closeModal()"
+          >
+            Start a Similar Project &#8594;
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+       FOOTER
+       ==================================================================== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-logo">Alex<span>.</span></div>
+        <p class="footer-copy">&copy; 2025 Alex Styles. All rights reserved.</p>
+        <nav class="footer-links">
+          <a href="#about">About</a>
+          <a href="#portfolio">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- ====================================================================
+       JAVASCRIPT — Modal + Scroll reveal + Filters + Nav + Form
+       ==================================================================== -->
+    <script>
+      // ----- Project data for modal -----
+      const projects = [
+        {
+          title: "Luminary Brand Identity",
+          category: "Branding",
+          client: "Luminary Co.",
+          year: "2024",
+          role: "Brand Designer",
+          image:
+            "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1000&auto=format&fit=crop&q=80",
+          desc: "A full visual identity system for Luminary, a sustainable luxury candle brand. The project covered logo design, typography system, color palette, packaging, and brand guidelines — built around the idea that sustainability and beauty aren't opposites.",
+          tags: [
+            "Logo Design",
+            "Brand Guidelines",
+            "Packaging",
+            "Typography",
+            "Print",
+          ],
+        },
+        {
+          title: "Meridian Magazine",
+          category: "Editorial",
+          client: "Meridian Publishing",
+          year: "2023",
+          role: "Art Director",
+          image:
+            "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=1000&auto=format&fit=crop&q=80",
+          desc: "Complete redesign of a quarterly print magazine covering architecture and contemporary culture. The goal was to modernize the layout without losing the journal's intellectual tone — tighter grid, bolder typographic hierarchy, new approach to photo editing.",
+          tags: [
+            "Editorial Layout",
+            "Grid Design",
+            "Typography",
+            "Print Production",
+          ],
+        },
+        {
+          title: "Foliage Skincare",
+          category: "Packaging",
+          client: "Foliage Lab",
+          year: "2024",
+          role: "Packaging Designer",
+          image:
+            "https://images.unsplash.com/photo-1612538498456-e861df91d4d0?w=1000&auto=format&fit=crop&q=80",
+          desc: "Packaging suite and brand language for a botanical skincare startup. Every surface was designed to communicate ingredient purity and natural origin — minimal copy, botanical illustration, and a color system tied directly to each product's hero ingredient.",
+          tags: [
+            "Packaging Design",
+            "Illustration",
+            "Brand Identity",
+            "Retail",
+          ],
+        },
+        {
+          title: "Volta — Web Design",
+          category: "Digital",
+          client: "Volta Financial",
+          year: "2023",
+          role: "Visual Designer",
+          image:
+            "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=1000&auto=format&fit=crop&q=80",
+          desc: "Visual design and design system for a fintech startup's public-facing site. Included a full component library in Figma, motion guidelines for UI transitions, and a type scale optimized for dense data displays.",
+          tags: ["Web Design", "Design System", "Figma", "UI / Visual Design"],
+        },
+        {
+          title: "Typeface Specimen Posters",
+          category: "Typography",
+          client: "Personal Project",
+          year: "2022",
+          role: "Designer",
+          image:
+            "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&auto=format&fit=crop&q=80",
+          desc: "A personal series of 12 limited-edition posters, each showcasing a different typeface through expressive editorial-style composition. The series was exhibited at a Brooklyn design fair and sold as signed prints.",
+          tags: ["Poster Design", "Typography", "Print", "Art Direction"],
+        },
+        {
+          title: "Kinetic Branding — Orb",
+          category: "Motion",
+          client: "Orb Studio",
+          year: "2024",
+          role: "Motion & Brand Designer",
+          image:
+            "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=1000&auto=format&fit=crop&q=80",
+          desc: "Animated logo and motion identity for a digital product studio. The brand needed to feel alive across digital touchpoints — the result was a flexible logo system with generative behavior, paired with motion guidelines for UI, social, and presentations.",
+          tags: ["Motion Design", "Brand Identity", "After Effects", "Digital"],
+        },
+      ];
+
+      // ----- Modal -----
+      const backdrop = document.getElementById("projectModal");
+      const modalClose = document.getElementById("modalClose");
+
+      function openModal(index) {
+        const p = projects[index];
+        document.getElementById("modalImage").src = p.image;
+        document.getElementById("modalImage").alt = p.title;
+        document.getElementById("modalCategory").textContent = p.category;
+        document.getElementById("modalTitle").textContent = p.title;
+        document.getElementById("modalClient").textContent = p.client;
+        document.getElementById("modalYear").textContent = p.year;
+        document.getElementById("modalRole").textContent = p.role;
+        document.getElementById("modalDesc").textContent = p.desc;
+        document.getElementById("modalTags").innerHTML = p.tags
+          .map((t) => `<span class="modal-tag">${t}</span>`)
+          .join("");
+        backdrop.classList.add("open");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeModal() {
+        backdrop.classList.remove("open");
+        document.body.style.overflow = "";
+      }
+
+      document.querySelectorAll(".portfolio-card").forEach((card) => {
+        card.style.cursor = "pointer";
+        card.addEventListener("click", () =>
+          openModal(Number(card.dataset.project)),
+        );
+      });
+
+      modalClose.addEventListener("click", closeModal);
+      backdrop.addEventListener("click", (e) => {
+        if (e.target === backdrop) closeModal();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModal();
+      });
+
+      // ----- Scroll reveal -----
+      const reveals = document.querySelectorAll(".reveal");
+      const revealOb = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              revealOb.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+      reveals.forEach((el) => revealOb.observe(el));
+
+      // ----- Portfolio filter (show/hide + active state) -----
+      const filterBtns = document.querySelectorAll(".filter-btn");
+      filterBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          filterBtns.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          const filter = btn.textContent.trim();
+          document.querySelectorAll(".portfolio-card").forEach((card) => {
+            const cat = card.querySelector(".card-category").textContent;
+            card.style.display =
+              filter === "All" || cat === filter ? "" : "none";
+          });
+        });
+      });
+
+      // ----- Nav: shadow + active link on scroll -----
+      const nav = document.querySelector(".nav");
+      const navLinks = document.querySelectorAll(".nav-links a:not(.nav-cta)");
+      const sections = document.querySelectorAll("section[id]");
+
+      window.addEventListener("scroll", () => {
+        nav.style.boxShadow =
+          window.scrollY > 40 ? "0 4px 24px rgba(28,25,23,0.10)" : "none";
+        let current = "";
+        sections.forEach((sec) => {
+          if (window.scrollY >= sec.offsetTop - 100) current = sec.id;
+        });
+        navLinks.forEach((a) =>
+          a.classList.toggle(
+            "active",
+            a.getAttribute("href") === "#" + current,
+          ),
+        );
+      });
+
+      // ----- Contact form -----
+      const form = document.getElementById("contactForm");
+      const submitBtn = form.querySelector('button[type="submit"]');
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        submitBtn.textContent = "Message Sent ✓";
+        submitBtn.disabled = true;
+        submitBtn.style.background = "#2E7D5E";
+        setTimeout(() => {
+          submitBtn.textContent = "Send Message →";
+          submitBtn.disabled = false;
+          submitBtn.style.background = "";
+          form.reset();
+        }, 3500);
+      });
+    </script>
+  </body>
+</html>
