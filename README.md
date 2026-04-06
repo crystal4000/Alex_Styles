@@ -139,26 +139,26 @@ Animations are intentional and minimal — they support the content rather than 
 
 ## Tools & Technologies
 
-| Tool               | Purpose                                            |
-| ------------------ | -------------------------------------------------- |
-| HTML5              | Semantic page structure                            |
-| CSS3               | Styling, layout, animations                        |
-| Vanilla JavaScript | Modal, scroll reveal, filters, form feedback       |
-| Google Fonts       | Cormorant Garamond + Jost typefaces                |
-| Unsplash           | External image links for all photos                |
-| Claude (Anthropic) | AI-assisted code generation and design suggestions |
+| Tool                | Purpose                                            |
+| ------------------- | -------------------------------------------------- |
+| HTML5               | Semantic page structure                            |
+| CSS3                | Styling, layout, animations                        |
+| Vanilla JavaScript  | Modal, scroll reveal, filters, form feedback       |
+| Google Fonts        | Cormorant Garamond + Jost typefaces                |
+| Unsplash            | External image links for all photos                |
+| Copilot (Microsoft) | AI-assisted code generation and design suggestions |
 
 ---
 
-## How Claude Assisted This Project
+## How Copilot Assisted This Project
 
-Claude was used throughout all three activities as an AI development partner:
+Copilot was used throughout all three activities as an AI development partner:
 
 - **Activity 1** — Generated the full HTML structure and CSS foundation including the design token system, grid layouts, keyframe animations, and hover interactions based on the design brief.
 - **Activity 2** — Identified which breakpoints to use, suggested fluid `clamp()` typography as an alternative to multiple font-size media queries, and restructured grid layouts for each screen size.
 - **Activity 3** — Generated the modal component including the JavaScript data layer, CSS tooltip pattern using `attr()`, the filter tab logic, and the active nav scroll tracking. Also suggested typography and visual hierarchy refinements.
 
-Using Claude accelerated development significantly — complex CSS patterns like the staggered card animations, backdrop-filter nav, and modal entrance animation were generated and explained in context, making it easier to understand the reasoning behind each technique and adapt them to the project's specific needs.
+Using Copilot accelerated development significantly — complex CSS patterns like the staggered card animations, backdrop-filter nav, and modal entrance animation were generated and explained in context, making it easier to understand the reasoning behind each technique and adapt them to the project's specific needs.
 
 ---
 
